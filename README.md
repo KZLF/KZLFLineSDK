@@ -6,4 +6,4 @@ KZLFLineSDK是安徽快智乐服 cc平台iOS一款在线客服SDK
 
 cocoapods 管理
 
-pod 'KZLFLineSDK', '~> 1.0.0'
+pod 'KZLFLineSDK', '~> 1.0.1'

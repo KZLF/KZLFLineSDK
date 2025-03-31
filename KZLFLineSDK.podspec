@@ -3,8 +3,8 @@
 Pod::Spec.new do |spec|
 
 
-  spec.name         = "QMLineSDK"
-  spec.version      = "1.0.0"
+  spec.name         = "KZLFLineSDK"
+  spec.version      = "1.0.1"
   spec.summary      = "KZLFLineSDK is sdk"
 
   spec.homepage     = "https://github.com/KZLF/KZLFLineSDK"
