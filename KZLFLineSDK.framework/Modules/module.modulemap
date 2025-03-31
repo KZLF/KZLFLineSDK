@@ -1,0 +1,6 @@
+framework module KZLFLineSDK {
+  umbrella header "QMLineSDK.h"
+  export *
+
+  module * { export * }
+}

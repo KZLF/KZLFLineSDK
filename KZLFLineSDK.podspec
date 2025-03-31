@@ -16,11 +16,11 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios,'12.0'
 
   spec.source       = { :git => "https://github.com/KZLF/KZLFLineSDK.git", :tag => spec.version.to_s }
-
+	
   spec.resource      = 'QMLineBundle.bundle'
   spec.vendored_frameworks  = "KZLFLineSDK.framework"
   spec.pod_target_xcconfig = {'VALID_ARCHS'=>'armv7 x86_64 arm64'}
-
+  spec.module_map = 'KZLFLineSDK.framework/Modules/module.modulemap'
   spec.requires_arc = true
   spec.dependency 'QMBaseLib', '~> 0.6'
   spec.dependency 'SocketRocket', '~> 0.6.1'
